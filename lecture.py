@@ -129,7 +129,18 @@ class BinarySearchTree:
     def _insert(self, node, key):
         pass
 
+# Step 13
 
+# Now you need to check if the node parameter is None. If it is, this means that the method has reached a 
+# leaf node or an empty spot in the tree where the new node should be inserted.
+
+# Inside the method body, write an if statement that checks if node is None. 
+# Inside the if block, return TreeNode(key) to create a new TreeNode instance with the provided key. 
+# This will become the new leaf node, effectively inserting the key into the tree.
+
+    def _insert(self, node, key):
+        if node is None:
+            return TreeNode(key)
 
 
 
