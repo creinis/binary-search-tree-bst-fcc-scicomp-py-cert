@@ -401,7 +401,24 @@ class BinarySearchTree:
         elif node.right is None:
             return node.left
 
+# Step 37
 
+# If neither one of the previous conditions is met, it means the node has both left and right children.
+
+# To choose the successor, you need to find the minimum value in the right subtree. 
+# The smallest value will be the in-order successor of the current node.
+
+# Later on, you are going to define a helper method called _min_value that finds the smallest value in a given 
+# subtree.
+
+# For now, add a _min_value call after your elif block, passing node.right as the argument. 
+# Assign it to the current node key.
+
+        if node.left is None:
+            return node.right
+        elif node.right is None:
+            return node.left      
+        node.key = self._min_value(node.right)    
 
 
 
