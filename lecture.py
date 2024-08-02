@@ -170,6 +170,14 @@ class BinarySearchTree:
         if key < node.key:
             node.left = self._insert(node.left, key)
 
+# Step 16
+
+# Add an elif conditional statement that checks if key > node.key.
+
+        if key < node.key:
+            node.left = self._insert(node.left, key)
+        elif key > node.key:
+            pass
 
 
 
