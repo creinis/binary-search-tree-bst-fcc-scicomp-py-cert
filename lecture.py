@@ -118,6 +118,21 @@ class BinarySearchTree:
     def insert(self,key):
         self.root = self._insert(self.root, key)
 
+# Step 12
+
+# Now you are going to define an _insert method, which is a helper function and does the actual insertion. 
+# This method is recursive, meaning it calls itself to traverse the tree until the appropriate location for 
+# the new node is found.
+
+# Define an _insert method with the parameters self, node and key.
+
+    def _insert(self, node, key):
+        pass
+
+
+
+
+
 
 
 
