@@ -628,6 +628,17 @@ for node in nodes:
 print("Inorder traversal:", bst.inorder_traversal())
 print('Search for 40:', bst.search(40))
 
+# Step 57
+
+# The result from the previous step is an object like this: <__main__.TreeNode object at 0x7fecd9cc66b0>. 
+# This is default string representation when printing an instance of a class.
+
+# To change that to print a useful value, define another method named __str__ in the TreeNode class. 
+# It takes a single argument self.
+
+def __str__(self):
+    pass
+
 
 
 
