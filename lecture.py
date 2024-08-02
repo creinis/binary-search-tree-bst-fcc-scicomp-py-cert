@@ -584,5 +584,14 @@ class BinarySearchTree:
 
 bst = BinarySearchTree()
 
+# Step 53
+
+# Below the BinarySearchTree instance, create a list named nodes with the following 
+# integer values: 50, 30, 20, 40, 70, 60, 80.
+
+bst = BinarySearchTree()
+nodes = [50, 30, 20, 40, 70, 60, 80]
+
+
 
 
