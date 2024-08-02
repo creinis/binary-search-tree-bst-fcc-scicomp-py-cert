@@ -613,6 +613,21 @@ for node in nodes:
     bst.insert(node)
 print('Inorder traversal:', bst.inorder_traversal())
 
+# Step 56
+
+# Below your print() call, add another print() call to test the search functionality. 
+# This time, pass the string Search for 40: as the first argument. 
+# For the second argument, call the search method of bst and pass 40 as the argument.
+
+bst = BinarySearchTree()
+nodes = [50, 30, 20, 40, 70, 60, 80]
+
+for node in nodes:
+    bst.insert(node)
+
+print("Inorder traversal:", bst.inorder_traversal())
+print('Search for 40:', bst.search(40))
+
 
 
 
