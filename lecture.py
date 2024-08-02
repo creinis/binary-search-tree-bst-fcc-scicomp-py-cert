@@ -332,6 +332,20 @@ class BinarySearchTree:
         if node is None:
             return node
 
+# Step 31
+
+# After your existing if, write another one that checks if the target key is less than the current node key.
+
+# Step 32
+
+# Within the if block, replace pass with a call to the _delete method, passing the left child of the current 
+# node and the key as arguments. Assign the function call to the left node.
+
+    def _delete(self, node, key):
+        if node is None:
+            return node
+        if key < node.key:
+            node.left = self._delete(node.left, key)
 
 
 
