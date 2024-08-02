@@ -179,7 +179,13 @@ class BinarySearchTree:
         elif key > node.key:
             pass
 
+# Step 17
 
+# Inside your elif clause, replace pass with a call to the _insert method on the right child of the current node. 
+# Assign the result to the right attribute of the current node.
+
+        elif key > node.key:
+            node.right = self._insert(node.right, key)
 
 
 
