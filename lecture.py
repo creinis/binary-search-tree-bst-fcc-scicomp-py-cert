@@ -648,6 +648,16 @@ def __str__(self):
     def __str__(self):
         return str(self.key)
 
+# Step 59
+
+# As you can see, now you get a readable output in the console.
+
+# After the print() calls, call the delete method of bst and delete 40 from the binary search tree.
+
+print("Inorder traversal:", bst.inorder_traversal())
+print("Search for 40:", bst.search(40))
+bst.delete(40)
+
 
 
 
