@@ -64,6 +64,18 @@ class TreeNode:
 class BinarySearchTree :
     pass
 
+# Step 7
+
+# Within the BinarySearchTree class, replace pass with an __init__ method and add a self parameter to this method.
+
+class BinarySearchTree:
+    def __init__(self):
+        pass
+
+
+
+
+
 
 
 
