@@ -482,6 +482,18 @@ class BinarySearchTree:
         while node.left is not None:
             node = node.left
 
+# Step 43
 
+# Once the leftmost node is found (that is, when node.left becomes None), the loop exits.
+
+# After the while loop, return the key of the leftmost node, which represents the minimum value in the 
+# given subtree.
+
+# With this, you are able to get the value that will replace the node after it is deleted.
+
+    def _min_value(self, node):
+        while node.left is not None:
+            node = node.left
+        return node.key
 
 
