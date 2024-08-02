@@ -576,7 +576,13 @@ class BinarySearchTree:
             result.append(node.key)
             self._inorder_traversal(node.right, result)
 
+# Step 52
 
+# Now it's time to put everything into use.
+
+# Create an instance of the BinarySearchTree class and assign it to the variable bst.
+
+bst = BinarySearchTree()
 
 
 
