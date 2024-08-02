@@ -304,7 +304,14 @@ class BinarySearchTree:
     def delete(self, key):
         return self._delete(self.root, key)
 
+# Step 28
 
+# The deletion operation might result in a new root (for example, if the node to be deleted is the current root).
+
+# To handle this case, assign the result of the _delete call to self.root.
+
+    def delete(self, key):
+        self.root = self._delete(self.root, key)
 
 
 
