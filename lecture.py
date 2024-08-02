@@ -72,7 +72,17 @@ class BinarySearchTree:
     def __init__(self):
         pass
 
+# Step 8
 
+# Inside the __init__ method, delete pass and initialize an instance attribute called root to the value None.
+
+# The root attribute represents the root node of the binary search tree. 
+# Since this is the constructor when a new BinarySearchTree object is created, it starts with an empty tree, 
+# so the root attribute is set to None.
+
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
 
 
 
