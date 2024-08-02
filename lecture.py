@@ -253,7 +253,18 @@ class BinarySearchTree:
         if node is None or node.key == key:
             return node
 
+# Step 24
 
+# Write another if statement that checks if the target key is less than the key of the current node.
+
+# Inside the if block, return the result of calling the _search method with the left child of the current 
+# node and key as the arguments.
+
+    def _search(self, node, key):
+        if node is None or node.key == key:
+            return node
+        if key < node.key:
+            return self._search(node.left, key)  
 
 
 
