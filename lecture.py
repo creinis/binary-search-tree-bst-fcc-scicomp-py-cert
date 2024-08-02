@@ -157,6 +157,25 @@ class BinarySearchTree:
         if key < node.key:
             pass  
 
+# Step 15
+
+# If key < node.key returns True, then the new node should be placed in the left subtree.
+
+# Delete pass and recursively call the _insert method on the left child of the current node. 
+# Then, assign the result to the left attribute of the current node.
+
+    def _insert(self, node, key):
+        if node is None:
+            return TreeNode(key)
+        if key < node.key:
+            node.left = self._insert(node.left, key)
+
+
+
+
+
+
+
 
 
 
