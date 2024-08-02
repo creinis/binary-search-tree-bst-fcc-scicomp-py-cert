@@ -537,7 +537,14 @@ class BinarySearchTree:
         self._inorder_traversal(self.root, result)
         return result
 
+# Step 48
 
+# Define the _inorder_traversal method and give it three parameters: self, node and result. 
+# Where node is the current node being considered during the traversal and result is the list to which the 
+# keys are appended in sorted order.
+
+    def _inorder_traversal(self, node, result):
+        pass
 
 
 
