@@ -347,7 +347,20 @@ class BinarySearchTree:
         if key < node.key:
             node.left = self._delete(node.left, key)
 
+# Step 33
 
+# Write an elif statement that checks if key > node.key.
+
+# Inside your elif block, call the _delete method with the right child of the current node and key as the 
+# arguments and assign the result to the right node.
+
+    def _delete(self, node, key):
+        if node is None:
+            return node
+        if key < node.key:
+            node.left = self._delete(node.left, key)
+        elif key > node.key:
+            node.right = self._delete(node.right, key)
 
 
 
