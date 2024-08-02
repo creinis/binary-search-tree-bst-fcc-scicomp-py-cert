@@ -239,7 +239,19 @@ class BinarySearchTree:
     def _search(self, node, key):
         pass
 
+# Step 23
 
+#Now you are going to define a base case for the recursive search. 
+# Write an if statement that checks two conditions:
+
+#    If node is None: This indicates that the search has reached the end of a branch without finding the key.
+#    If node.key == key: This means that the key has been found in the current node.
+
+#Combine the two conditions with the or operator and return the current node inside the if block.
+
+    def _search(self, node, key):
+        if node is None or node.key == key:
+            return node
 
 
 
