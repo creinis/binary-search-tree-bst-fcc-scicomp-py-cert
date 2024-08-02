@@ -592,6 +592,17 @@ bst = BinarySearchTree()
 bst = BinarySearchTree()
 nodes = [50, 30, 20, 40, 70, 60, 80]
 
+# Step 54
+
+# Write a for loop to iterate over the nodes list. 
+# Inside the for loop body, call the insert method of the bst object, passing the node at the current 
+# iteration to insert all values orderly into the binary search tree.
+
+for node in nodes:
+    bst.insert(node)
+
+
+
 
 
 
