@@ -142,7 +142,20 @@ class BinarySearchTree:
         if node is None:
             return TreeNode(key)
 
+# Step 14
 
+# Now you need to recursively traverse the tree and insert the values using the principle for binary trees:
+
+#    Values smaller than the key are placed in the left subtree
+#    Values greater than the key are placed in the right subtree
+
+# After your existing conditional statement, write another if statement to check if key is strictly less than node.key.
+
+    def _insert(self, node, key):
+        if node is None:
+            return TreeNode(key)
+        if key < node.key:
+            pass  
 
 
 
