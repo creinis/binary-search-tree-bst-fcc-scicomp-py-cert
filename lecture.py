@@ -474,5 +474,14 @@ class BinarySearchTree:
         while node.left is not None:
             pass
 
+# Step 42
+
+# Inside the while loop body, replace pass with node and assign it the left child of the node.
+
+    def _min_value(self, node):
+        while node.left is not None:
+            node = node.left
+
+
 
 
