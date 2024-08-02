@@ -461,7 +461,18 @@ class BinarySearchTree:
     def _min_value(self, node):
         pass
 
+# Step 41
 
+# To find the smallest value in the right subtree, you need to iterate through the left children of the given 
+# node until you reach the leftmost (smallest) node in the subtree.
+
+# To do this, write a while loop that runs when node.left is not None and move pass inside the while block. 
+# This condition checks if there is a left child. 
+# As long as there is a left child, the loop continues and there is a smaller value to be found.
+
+    def _min_value(self, node):
+        while node.left is not None:
+            pass
 
 
 
