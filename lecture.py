@@ -321,6 +321,16 @@ class BinarySearchTree:
     def _delete(self, node, key):
         pass
 
+# Step 30
+
+# Inside your _delete method, replace pass with an if statement that checks if the current node is None. 
+# When the current node is None, the key to be deleted was not found.
+
+# Therefore, return node from your if block.
+
+    def _delete(self, node, key):
+        if node is None:
+            return node
 
 
 
