@@ -420,5 +420,33 @@ class BinarySearchTree:
             return node.left      
         node.key = self._min_value(node.right)    
 
+# Step 38
 
+# After finding the minimum value, you will need to recursively delete the node with the minimum value from the 
+# right subtree.
+
+# This step ensures that the node with the minimum value is removed from the tree while maintaining the binary 
+# search tree (BST) property.
+
+# Step 39
+
+# Finally, after your else clause, return the current node.
+
+    def _delete(self, node, key):
+        if node is None:
+            return node
+        if key < node.key:
+            node.left = self._delete(node.left, key)
+        elif key > node.key:
+            node.right = self._delete(node.right, key)
+        else:
+            if node.left is None:
+                return node.right
+
+            elif node.right is None:
+                return node.left
+
+            node.key = self._min_value(node.right)
+            node.right = self._delete(node.right, node.key)
+        return node
 
