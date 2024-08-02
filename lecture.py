@@ -669,6 +669,16 @@ print("Search for 40:", bst.search(40))
 bst.delete(40)
 print("Inorder traversal after deleting 40:", bst.inorder_traversal())
 
+# Step 61
 
+# As a last step, search for 40 again. It should be deleted. You can copy and paste the previous print() call.
+
+# With this, you have finished the implementation of the binary search tree. Great work!
+
+print("Inorder traversal:", bst.inorder_traversal())
+print("Search for 40:", bst.search(40))
+bst.delete(40)
+print("Inorder traversal after deleting 40:", bst.inorder_traversal())
+print("Search for 40:", bst.search(40))
 
 
