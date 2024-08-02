@@ -201,7 +201,15 @@ class BinarySearchTree:
             node.right = self._insert(node.right, key)
         return node 
 
+# Step 19
 
+# Now, it's time to work on the search functionality.
+
+# Define a method named search inside the BinarySearchTree class. 
+# Give the search method two parameters: self and key.
+
+    def search(self, key):
+        pass
 
 
 
