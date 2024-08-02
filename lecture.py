@@ -555,7 +555,14 @@ class BinarySearchTree:
         if node:
             node.left = self._inorder_traversal(node.left, result)
 
+# Step 50
 
+# Still inside the if block, append the key of the current node to the result list.
+
+    def _inorder_traversal(self, node, result):
+        if node:
+            self._inorder_traversal(node.left, result)
+            result.append(node.key)
 
 
 
