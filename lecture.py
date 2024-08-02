@@ -601,7 +601,17 @@ nodes = [50, 30, 20, 40, 70, 60, 80]
 for node in nodes:
     bst.insert(node)
 
+# Step 55
 
+# Below the loop, call the print() function and pass it the string Inorder traversal: as the first argument 
+# and the bst.inorder_traversal() call as the second argument to print the result of the inorder traversal.
+
+bst = BinarySearchTree()
+nodes = [50, 30, 20, 40, 70, 60, 80]
+
+for node in nodes:
+    bst.insert(node)
+print('Inorder traversal:', bst.inorder_traversal())
 
 
 
