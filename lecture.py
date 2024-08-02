@@ -528,6 +528,16 @@ class BinarySearchTree:
         result = []
         self.root = self._inorder_traversal(self.root, result)
 
+# Step 47
+
+# Finally, return the sorted list of keys.
+
+    def inorder_traversal(self):
+        result = []
+        self._inorder_traversal(self.root, result)
+        return result
+
+
 
 
 
