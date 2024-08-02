@@ -95,6 +95,28 @@ class BinarySearchTree:
     def insert(self):
         pass
 
+# Step 10
+
+# The insert method will be called by the user. 
+# In addition to the self parameter, it will also need a key parameter. 
+# This parameter will be the key value to insert into the binary search tree.
+
+# Add key as the second parameter to the function definition.
+
+# Step 11
+
+# Now, inside the insert method, you need to call another method _insert() that performs the actual insertion. 
+# You are going to define the _insert method soon.
+
+# Delete pass and assign self._insert(self.root, key) to self.root.
+
+# Note that:
+
+#    self.root passes the root node of the tree as the first argument. This is the starting point for the insertion process.
+#    key: passes the key value you want to insert as the second argument.
+
+    def insert(self,key):
+        self.root = self._insert(self.root, key)
 
 
 
