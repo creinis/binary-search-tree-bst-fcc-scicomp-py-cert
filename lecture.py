@@ -658,6 +658,17 @@ print("Inorder traversal:", bst.inorder_traversal())
 print("Search for 40:", bst.search(40))
 bst.delete(40)
 
+# Step 60
+
+# Corfirm that 40 has been deleted by printing the tree. 
+# After deleting 40, call print() passing the string Inorder traversal after deleting 40: as the first 
+# argument and an inorder_traversal() call as the second argument.
+
+print("Inorder traversal:", bst.inorder_traversal())
+print("Search for 40:", bst.search(40))
+bst.delete(40)
+print("Inorder traversal after deleting 40:", bst.inorder_traversal())
+
 
 
 
