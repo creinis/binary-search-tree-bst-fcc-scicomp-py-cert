@@ -296,6 +296,19 @@ class BinarySearchTree:
     def delete(self, key):
         pass
 
+# Step 27
+
+# Inside the delete method, delete pass and call the private helper method _delete with the root of the binary 
+# search tree (BST) and the key to delete as the arguments.
+
+    def delete(self, key):
+        return self._delete(self.root, key)
+
+
+
+
+
+
 
 
 
