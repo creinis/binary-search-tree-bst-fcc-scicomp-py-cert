@@ -496,4 +496,23 @@ class BinarySearchTree:
             node = node.left
         return node.key
 
+# Step 44
+
+# The inorder_traversal method is responsible for performing an in-order traversal of the binary search tree. 
+# It returns the keys of the nodes in sorted order.
+
+# In-order traversal is a depth-first binary tree traversal algorithm that visits the left subtree, the current 
+# node, and then the right subtree.
+
+# Create an inorder_traversal method that takes self as the only parameter.
+
+    def inorder_traversal(self):
+        pass
+
+
+
+
+
+
+
 
