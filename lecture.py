@@ -564,5 +564,19 @@ class BinarySearchTree:
             self._inorder_traversal(node.left, result)
             result.append(node.key)
 
+# Step 51
+
+# Finally, recursively call the _inorder_traversal method on the right child of the current node.
+
+# This recursive call explores the entire right subtree in an in-order manner.
+
+    def _inorder_traversal(self, node, result):
+        if node:
+            self._inorder_traversal(node.left, result)
+            result.append(node.key)
+            self._inorder_traversal(node.right, result)
+
+
+
 
 
