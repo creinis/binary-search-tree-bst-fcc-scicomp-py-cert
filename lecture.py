@@ -546,6 +546,16 @@ class BinarySearchTree:
     def _inorder_traversal(self, node, result):
         pass
 
+# Step 49
+
+# Replace pass with an if statement that checks if the current node (node) is not empty. 
+# Then, recursively call _inorder_traversal with node.left and result as the arguments.
+
+    def _inorder_traversal(self, node, result):
+        if node:
+            node.left = self._inorder_traversal(node.left, result)
+
+
 
 
 
