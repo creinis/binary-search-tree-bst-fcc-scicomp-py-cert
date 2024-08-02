@@ -232,6 +232,15 @@ class BinarySearchTree:
     def search(self, key):
         return self._search(self.root, key)
 
+# Step 22
+
+# Now, define the _search method with three parameters, namely self,node and key.
+
+    def _search(self, node, key):
+        pass
+
+
+
 
 
 
