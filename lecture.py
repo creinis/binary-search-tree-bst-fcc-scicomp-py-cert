@@ -84,7 +84,16 @@ class BinarySearchTree:
     def __init__(self):
         self.root = None
 
+# Step 9
 
+# Next, you need to define a mechanism to insert nodes in the tree. 
+# For that, define an empty insert method within the BinarySearchTree class and give it a self parameter.
+
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+    def insert(self):
+        pass
 
 
 
