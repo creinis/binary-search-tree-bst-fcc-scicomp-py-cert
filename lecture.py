@@ -450,3 +450,18 @@ class BinarySearchTree:
             node.right = self._delete(node.right, node.key)
         return node
 
+# Step 40
+
+# When the node you want to delete has two children, you need to choose the replacement node from the children. 
+# The in-order successor method chooses the smallest element from the right subtree and places that element 
+# in place of the deleted node.
+
+# Define the _min_value method and give it two parameters: self and node.
+
+    def _min_value(self, node):
+        pass
+
+
+
+
+
