@@ -15,6 +15,14 @@
 class TreeNode():
     pass
 
+# Step 2
+
+# Inside the TreeNode class, replace pass with an __init__ method so that you can initialize the attributes 
+# of the object. Don't add any parameters and use the pass keyword to avoid an error.
+
+class TreeNode:
+    def __init__():
+        pass
 
 
 
