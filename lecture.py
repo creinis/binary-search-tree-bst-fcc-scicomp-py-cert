@@ -516,6 +516,17 @@ class BinarySearchTree:
     def inorder_traversal(self):
         result = []
 
+# Step 46
+
+# Within the inorder_traversal method, start the in-order traversal by calling the helper method 
+# _inorder_traversal and pass the BST root and the result list as the arguments.
+
+# This will start the traversal from the root of the binary search tree (self.root), and the result 
+# list will be passed to accumulate the keys during the traversal.
+
+    def inorder_traversal(self):
+        result = []
+        self.root = self._inorder_traversal(self.root, result)
 
 
 
