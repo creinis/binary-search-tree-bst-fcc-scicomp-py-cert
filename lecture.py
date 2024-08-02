@@ -313,6 +313,13 @@ class BinarySearchTree:
     def delete(self, key):
         self.root = self._delete(self.root, key)
 
+# Step 29
+
+# Inside the BinarySearchTree class, define a new helper method called _delete that takes three parameters: 
+# self, node, and key.
+
+    def _delete(self, node, key):
+        pass
 
 
 
