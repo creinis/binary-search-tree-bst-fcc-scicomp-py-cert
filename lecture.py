@@ -639,6 +639,15 @@ print('Search for 40:', bst.search(40))
 def __str__(self):
     pass
 
+# Step 58
+
+# In the body of the __str__ method, delete pass and return the result of calling the str() function with 
+# self.key as the argument. This is the attribute of the current node object that stores the value associated 
+# with the node.
+
+    def __str__(self):
+        return str(self.key)
+
 
 
 
