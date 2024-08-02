@@ -211,5 +211,24 @@ class BinarySearchTree:
     def search(self, key):
         pass
 
+# Step 20
+
+# Inside the search method, delete pass and call the private helper method _search with the following arguments. 
+# You will define _search in the next steps.
+
+#    self.root: This is the root of the binary search tree. The search starts from the root.
+#    key: This is the value that the user wants to find in the binary search tree.
+
+# Internally, search delegates the actual search logic to the private _search method that performs the actual 
+# recursive search within the binary search tree.
+
+    def search(self, key):
+        self.root = self._search(self.root, key)
+
+
+
+
+
+
 
 
