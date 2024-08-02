@@ -285,5 +285,18 @@ class BinarySearchTree:
         elif key > node.key:
             return self._search(node.right, key)     
 
+# Step 26
+
+# The next step is to work on the deletion of nodes.
+
+# Within the BinarySearchTree class, define a delete method. It takes two parameters: self and key.
+
+# key is the value that the user wants to delete from the binary search tree.
+
+    def delete(self, key):
+        pass
+
+
+
 
 
