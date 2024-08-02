@@ -266,7 +266,24 @@ class BinarySearchTree:
         if key < node.key:
             return self._search(node.left, key)  
 
+# Step 25
 
+# If the second if statement is not True, it means that the target key is greater than or equal to the current 
+# node key.
+
+# In a binary search tree, if the target key is greater than the current node's key, the search continues in the 
+# right subtree.
+
+# After the if block, return the result of calling the _search method with the right child of the current node 
+# and the key as arguments.
+
+    def _search(self, node, key):
+        if node is None or node.key == key:
+            return node
+        if key < node.key:
+            return self._search(node.left, key)
+        elif key > node.key:
+            return self._search(node.right, key)     
 
 
 
