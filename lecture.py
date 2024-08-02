@@ -57,6 +57,13 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# Step 6
+
+# Create another empty class called BinarySearchTree that represents a binary search tree.
+
+class BinarySearchTree :
+    pass
+
 
 
 
