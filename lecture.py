@@ -225,6 +225,12 @@ class BinarySearchTree:
     def search(self, key):
         self.root = self._search(self.root, key)
 
+# Step 21
+
+# Now, make the search method return the result of the _search() call.
+
+    def search(self, key):
+        return self._search(self.root, key)
 
 
 
