@@ -509,7 +509,12 @@ class BinarySearchTree:
     def inorder_traversal(self):
         pass
 
+# Step 45
 
+#Inside the method, replace pass with an empty list named result that will store the keys of the nodes in sorted order.
+
+    def inorder_traversal(self):
+        result = []
 
 
 
